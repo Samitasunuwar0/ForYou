@@ -1,21 +1,45 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blue Irish Flower</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>For You</title>
+    <link type="text/css" rel="stylesheet" href="./asset/style.css">
+    <script type="text/javascript" src="./asset/jquery.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-parser.js"></script>
+    <script type="text/javascript" src="./asset/jscex-jit.js"></script>
+    <script type="text/javascript" src="./asset/jscex-builderbase.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-async.min.js"></script>
+    <script type="text/javascript" src="./asset/jscex-async-powerpack.min.js"></script>
+    <script type="text/javascript" src="./asset/functions.js" charset="utf-8"></script>
+    <script type="text/javascript" src="./asset/love.js" charset="utf-8"></script>
 </head>
+
 <body>
-    <div class="flower-container">
-        <div class="flower">
-            <div class="petal petal1"></div>
-            <div class="petal petal2"></div>
-            <div class="petal petal3"></div>
-            <div class="petal petal4"></div>
-            <div class="center"></div>
+    <div id="main">
+        <div id="wrap">
+            <div id="text" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">
+                <div id="code">
+                    <font color="#87CEEB"><span class="say">Hi Kieran, here's your favourite color flowering tree!!!</span><br>
+                        <span class="say"> </span><br>
+                        <span class="say">I couldn't send you your favorite flower in person, so I made this for you instead. I really hope you like it.</span><br>
+                        <span class="say">I know you’ve been feeling a bit lost these days, and I just wanted to remind you of how much you mean to me. I wish I could show you the depth of how much you matter, how much I pray to God every day to keep you safe, and how special your existence is to me. If only you could see yourself through my eyes, you’d understand just how incredible you truly are.</span><br>
+                        <span class="say">You matter more than words can ever express, and you deserve nothing less than the world. And if, for any reason, the world ever feels like it’s turning against you, please remember that I’ll always be by your side, standing with you, no matter what. </span><br>
+                        <span class="say">You’re not alone in this.</span><br>
+                    </font>
+                    </p>
+                </div>
+            </div>
+            <canvas id="canvas" width="1100" height="680"></canvas>
         </div>
+
     </div>
-    <script src="script.js"></script>
+
+    <audio id="myAudio" autoplay="autoplay">
+        <source src="music/love.mp3" type="audio/mp3" />
+    </audio>
+
 </body>
+<script src="./asset/script.js"></script>
+
 </html>
